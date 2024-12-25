@@ -40,3 +40,18 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+
+    +create_schema: false  # Prevent dbt from creating schemas
+    src:
+      +schema: src
+      +create_schema: false
+      +materialized: table
+      +tags: ['src_data']
+    cnf:
+      +schema: cnf
+      +create_schema: false
+      +materialized: view
+    pub:
+      +schema: pub
+      +create_schema: false
+      +materialized: view

@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: RAW  # Update with your schema name
+    database: PROD  # Update with your database name
+    tables:
+      - name: orders
+        description: "Table containing raw orders data."
+      - name: customers
+        description: "Table containing customer details."
+      - name: products
+        description: "Table containing product details."
+      - name: site_visits
+        description: "Table containing site visit details."
+      - name: sales_rep
+        description: "Table containing sales representative details."
