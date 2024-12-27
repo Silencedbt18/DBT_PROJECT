@@ -3,4 +3,4 @@ SELECT
     customer_id,
     visit_date,
     page_views
-FROM {{ source('raw', 'site_visits') }}
+FROM {{ source('source_raw', 'site_visits') }}

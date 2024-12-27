@@ -4,4 +4,4 @@ SELECT
     customer_id,
     order_date,
     total_amount
-FROM {{ source('raw', 'orders') }}
+FROM {{ source('source_raw', 'orders') }}

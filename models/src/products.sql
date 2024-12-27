@@ -4,4 +4,4 @@ SELECT
     product_name,
     category,
     price
-FROM {{ source('raw', 'products') }}
+FROM {{ source('source_raw', 'products') }}

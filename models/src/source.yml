@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: raw
+  - name: source_raw
     schema: RAW  # Update with your schema name
     database: PROD  # Update with your database name
     tables:

@@ -1,0 +1,1 @@
+select * from {{ref("test_src")}} where category ='Electronics'

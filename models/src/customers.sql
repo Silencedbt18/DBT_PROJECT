@@ -4,4 +4,4 @@ SELECT
     first_name,
     last_name,
     email
-FROM {{ source('raw', 'customers') }}
+FROM {{ source('source_raw', 'customers') }}

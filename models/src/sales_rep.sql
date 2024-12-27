@@ -4,4 +4,4 @@ SELECT
     first_name,
     last_name,
     region
-FROM {{ source('raw', 'sales_rep') }}
+FROM {{ source('source_raw', 'sales_rep') }}
